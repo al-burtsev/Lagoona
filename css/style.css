@@ -19,8 +19,8 @@
 
 @font-face {
   font-family: "Muller";
-  src: local("Muller-Regular"), url(/fonts/MullerRegular.woff2) format("woff2"),
-    url(/fonts/MullerRegular.woff) format("woff");
+  src: local("Muller-Regular"), url(../fonts/MullerRegular.woff2) format("woff2"),
+    url(../fonts/MullerRegular.woff) format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -28,8 +28,8 @@
 
 @font-face {
   font-family: "Muller";
-  src: local("Muller-Medium"), url(/fonts/MullerMedium.woff2) format("woff2"),
-    url(/fonts/MullerMedium.woff) format("woff");
+  src: local("Muller-Medium"), url(../fonts/MullerMedium.woff2) format("woff2"),
+    url(../fonts/MullerMedium.woff) format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -37,8 +37,8 @@
 
 @font-face {
   font-family: "Muller";
-  src: local("Muller-Light"), url(/fonts/MullerLight.woff2) format("woff2"),
-    url(/fonts/MullerLight.woff) format("woff");
+  src: local("Muller-Light"), url(../fonts/MullerLight.woff2) format("woff2"),
+    url(../fonts/MullerLight.woff) format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -46,8 +46,8 @@
 
 @font-face {
   font-family: "Muller";
-  src: local("Muller-Bold"), url(/fonts/MullerBold.woff2) format("woff2"),
-    url(/fonts/MullerBold.woff) format("woff");
+  src: local("Muller-Bold"), url(../fonts/MullerBold.woff2) format("woff2"),
+    url(../fonts/MullerBold.woff) format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -279,11 +279,11 @@ ul {
 }
 
 .article-1 {
-  background-image: url(/img/article-1-img.jpg);
+  background-image: url(../img/article-1-img.jpg);
 }
 
 .article-2 {
-  background-image: url(/img/article-2-img.jpg);
+  background-image: url(../img/article-2-img.jpg);
 }
 
 .article__title {
@@ -308,7 +308,7 @@ ul {
 .article__right {
   height: 100%;
   padding: 211px 40px 41px 40px;
-  background-image: url(/img/article-3-img.jpg);
+  background-image: url(../img/article-3-img.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -453,7 +453,7 @@ ul {
   content: url("data:image/svg+xml;charset=UTF-8,<svg width='10' height='18' viewBox='0 0 10 18' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0.778175 1.00002L8.55635 8.7782L0.778175 16.5564' stroke='%23CC9933' stroke-width='2'/>  </svg>");
   width: 20px;
   height: 20px;
-  bottom: 6px;
+  bottom: 16px;
   right: -25px;
   background-repeat: no-repeat;
   transition: right 0.3s ease-in-out;
@@ -504,35 +504,35 @@ ul {
 }
 
 .straights__item-1 {
-  background-image: url(/img/bathtub.svg);
+  background-image: url(../img/bathtub.svg);
 }
 
 .straights__item-2 {
-  background-image: url(/img/hanger.svg);
+  background-image: url(../img/hanger.svg);
 }
 
 .straights__item-3 {
-  background-image: url(/img/heating.svg);
+  background-image: url(../img/heating.svg);
 }
 
 .straights__item-4 {
-  background-image: url(/img/hotel-key.svg);
+  background-image: url(../img/hotel-key.svg);
 }
 
 .straights__item-5 {
-  background-image: url(/img/parking.svg);
+  background-image: url(../img/parking.svg);
 }
 
 .straights__item-6 {
-  background-image: url(/img/reception.svg);
+  background-image: url(../img/reception.svg);
 }
 
 .straights__item-7 {
-  background-image: url(/img/security-box.svg);
+  background-image: url(../img/security-box.svg);
 }
 
 .straights__item-8 {
-  background-image: url(/img/swimming-pool.svg);
+  background-image: url(../img/swimming-pool.svg);
 }
 
 .straights__item:not(:nth-child(4n)) {
@@ -614,7 +614,7 @@ ul {
 .placement__last-child {
   position: relative;
   display: flex;
-  background-image: url(/img/placement-item-bg.jpg);
+  background-image: url(../img/placement-item-bg.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -643,7 +643,7 @@ ul {
 
 .placement__last-child__link::after {
   position: absolute;
-  content: url(/img/placement-lc-img.svg);
+  content: url(../img/placement-lc-img.svg);
   width: 22px;
   height: 22px;
   bottom: 40px;
@@ -653,7 +653,7 @@ ul {
 
 .placement__last-child__link:hover::after {
   position: absolute;
-  content: url(/img/placement-lc-img.svg);
+  content: url(../img/placement-lc-img.svg);
   width: 22px;
   height: 22px;
   bottom: 40px;
@@ -791,7 +791,7 @@ ul {
   padding: 44px 52px;
   background-color: #333;
   border-radius: 15px;
-  background-image: url(/img/footer-bg-img.svg);
+  background-image: url(../img/footer-bg-img.svg);
   background-size: 254px 228px;
   background-repeat: no-repeat;
   background-position: bottom 0% right 19%;
@@ -858,10 +858,20 @@ ul {
 }
 
 .social-link:hover .social-link__img {
-fill: var(--button-link-color);
+  fill: var(--button-link-color);
 }
 
 
 .social-link:active .social-link__img {
   fill: var(--button-link-active);
+}
+
+@media screen and (max-width: 1200px) {
+  .straights__item:not(:nth-child(3n)) {
+    margin-right: 23px;
   }
+
+  .placement__item:not(:nth-child(4n)) {
+    margin-right: 23px;
+}
+}
